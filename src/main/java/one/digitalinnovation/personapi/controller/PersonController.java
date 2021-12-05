@@ -14,7 +14,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/api/v1/people", method = RequestMethod.POST)
+@RequestMapping("/api/v1/people")
 public class PersonController {
 
     private PersonService personService;

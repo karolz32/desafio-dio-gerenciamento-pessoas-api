@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.mapstruct.MappingTarget;
 
+//import javax.persistence.*;
 import javax.persistence.*;
 import java.lang.annotation.ElementType;
 import java.time.LocalDate;
